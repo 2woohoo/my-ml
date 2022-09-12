@@ -1,10 +1,19 @@
 import './App.css';
 
 function App() {
+
+
+  // const status = document.getElementById('status');
+  // if (status) {
+  //   status.innerText = 'Loaded TensorFlow.js - version: ' + tf.version.tfjs;
+  // }
+
   return (
     <div className="App">
       <div className='container'>
         <div className='text-blue-500 text-2xl'>训练你的机器模型</div>
+
+        {/* <p id="status" className='font-bold'>Awaiting TF.js load</p> */}
 
         <p id="status">正在初始化项目...</p>
 
